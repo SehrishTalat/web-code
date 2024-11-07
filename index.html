@@ -151,6 +151,73 @@
 
 
 
+    
+    <form action="" method="get">            <!--where we want to send user-data  //leave it blank, we dont have server right now-->
+            <h1>Contact Form</h1>
+            <p>Please fill all required fields follwoed by *</p>
+
+            <div>
+            <label>Name:*  </label>
+            <input type="text" name="user_firstname" required>         <!---field data is sent to the server with 'name' attribute firstname="sehrish"-->   
+            </div>
+
+        
+
+            <div>
+            <label>Email*:  </label>
+            <input type="email" name="user_email" id="id_email" required>
+            </div>
+
+
+            <div>
+            <label>Address:</label>
+                <textarea name="user_address" cols="5" rows="5"> </textarea>
+            </div>
+
+            <div>
+                <label>Gender:*</label>
+                Male: <input type="radio" name="user_gender" id="id_gender_male" required>
+                Female: <input type="radio" name="user_gender" id="id_gender_female">
+            </div>
+
+            <div>
+                <label>Phone:*</label>
+                <input type="number" name="user_phone" id="id_phone" required>
+            </div>
+
+            <div>
+                <label>select country:*</label>
+                <select name="user_country" id="id_Country" required>
+                    <option value="">--select an option--</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="United States">United States</option>
+                    <option value="Canada">Canada</option>
+                    <option value="India">India</option>
+                </select>
+            </div>
+
+            <div>
+                <label>DOB:</label>
+                <input type="date" name="user_dob" id="id_dob">
+            </div>
+
+            <div>
+                <label>Password:*</label>
+                
+                <input type="password" name="user_password" id="id_password" required>
+            </div>
+                  
+            <div>
+                <label>Choose Course:</label>
+
+                <label> <input type="checkbox" name="user_course" id="id_course" value="Web"> WordPres/Web Development </label>
+                <label> <input type="checkbox" name="user_course" id="id_course" value="App"> Android Application Development </label>
+
+            </div>
+
+            <input type="submit" value="Submit">
+
+    </form>
 
 </body>
 </html>
