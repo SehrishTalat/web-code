@@ -1,0 +1,44 @@
+/*External CSS*/
+
+/*CSS element selector*/
+p
+{
+    font-size: 20px; 
+    color: gray;
+}
+h1
+{
+    font-size: 50px; 
+    color: antiquewhite;
+
+}
+
+/*CSS - ID selector*/
+#id-para1
+{
+    font-size: 20px; 
+    color: blue;
+}
+#id-heading1
+{
+    font-size: 50px; 
+    color:brown; 
+}
+
+
+/*CSS - class selector*/
+.class-text
+{
+    font-size: 20px; 
+    color: blue;
+}
+
+/*CSS - grouping selector*/
+/*
+p,h1,h2
+{
+    font-size: 20px; 
+    color: blue;
+}
+*/
+
