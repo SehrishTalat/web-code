@@ -42,3 +42,91 @@ p,h1,h2
 }
 */
 
+
+/*CSS - attribute selector*/
+a[href="www.google.com"]
+{
+    color: aqua;
+
+}
+
+/*CSS - pseudo class  selector*/
+/*Anchor Pseudo-classes*/
+a:link
+{
+    color: blue;
+}
+a:visited
+{
+    color: aqua;
+}
+a:hover
+{
+    color: blueviolet;
+}
+a:active
+{
+    color: brown;
+}
+
+/*Pseudo-classes and HTML Classes*/
+.pseudo-class-element:hover
+{
+    color: brown;
+}
+
+/*Hover on <div>*/
+div
+{
+    background-color: aliceblue;
+}
+div:hover
+{
+    background-color: bisque;
+}
+
+/*CSS - The :first-child Pseudo-class*/
+/*Match the first <p> element*/
+p:first-child
+{
+    color: bisque;
+}
+
+/*Match the first <i> element in all <p> elements*/
+p i:first-child
+{
+    color: rebeccapurple;
+}
+
+
+/*Pseudo-element*/
+/*The ::first-line Pseudo-element*/
+p::first-line
+{
+    color: red;
+}
+
+/*The ::first-letter Pseudo-element*/
+p::first-letter
+{
+    color: red;
+    font-family: "Great Vibes", cursive;
+
+}
+
+/*universal selector*/
+*{
+    background-color: antiquewhite;
+}
+
+div *
+{
+    background-color: aquamarine;
+}
+
+body {
+    background-image: url("/image/slider1.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: center;
+}
