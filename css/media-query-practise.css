@@ -1,0 +1,179 @@
+/**************Monday, November 13, 2024**************/
+/*
+
+// when width is only 450px
+@media screen and (width:450px){
+    body
+    {
+        background-color: blue;
+    }
+    
+}
+
+// when width is maximum 450px, like till 450 (0px-450px)
+@media screen and (max-width:450px) {
+    body
+    {
+        background-color: antiquewhite;
+    }
+    
+}
+
+//when screen size vary from (0-700)
+@media screen and (max-width:700px) {
+
+    body
+    {
+        background-color:gray;
+    }
+    
+}
+
+
+//when screen size vary from (450 - ∞)
+@media screen and (min-width:450px){
+    body
+    {
+        background-color:gray;
+    }
+    
+}
+
+
+/*mobile*/
+/* applicable between (0 -400) such as mobile devices
+@media screen and (min-width:0px) and (max-width:400px) {
+    body
+    {
+        background-color:rgb(0, 0, 0);
+    }
+}
+
+/*tablet*/
+/* applicable between (400-700), such as tablet devices
+@media screen and (min-width:400px) and (max-width:700px) {
+    body
+    {
+        background-color:gray;
+    }
+}
+
+/*desktop*/
+/* applicable between (700-1024), such as desktop devices
+@media screen and (min-width:700px) and (max-width:1024px) {
+    body
+    {
+        background-color:aqua;
+    }
+}
+*/
+
+/*orientation*/  
+  /*
+// when orientation is landspace only
+@media (orientation:landscape) {
+body
+    {
+        background-color: red;
+    }
+}
+
+// when both the maximum width is till 600 and orientation is landspace also
+@media screen and (max-width:600px) and (orientation:landscape){
+   body
+    {
+        background-color: red;
+    }
+}
+
+// when either maximum width is till 600 or orientation is landspace (only one among them)
+@media screen and (max-width:600px),
+screen and (orientation:landscape)
+{
+    body
+    {
+        background-color: red;
+    }
+}
+
+
+
+
+/*On mobile, tablet and desktop, lets apply properties on div, p and h1 */
+
+/*mobile - applicable between (0 -400)*/
+@media screen and (min-width:0px) and (max-width:400px) {
+    body
+    {
+        background-color:gray;
+    }
+
+
+    div
+    {
+        background-color: black;
+    }
+
+    p
+    {
+        font-size: 25px;
+        color: red;
+    }
+    .heading1
+    {
+        font-size: 25px;
+        color: white;
+    }
+    
+}
+
+/*tablet - applicable between (400 - 700)*/
+@media screen and (min-width:400px) and (max-width:700px) {
+    body
+    {
+        background-color:antiquewhite;
+    }
+    div
+    {
+        background-color: black;
+    }
+
+    p
+    {
+        font-size: 50px;
+        color: red;
+    }
+    .heading1
+    {
+        font-size: 50px;
+        color: white;
+    }
+
+    
+}
+
+/*desktop - - applicable between (700 - 1024)*/
+@media screen and (min-width:700px) and (max-width:1024px) {
+    body
+    {
+        background-color:aqua;
+    }
+
+   
+    div
+    {
+        background-color: black;
+    }
+
+    p
+    {
+        font-size: 70px;
+        color: red;
+    }
+    .heading1
+    {
+        font-size: 70px;
+        color: white;
+    }
+    
+}
