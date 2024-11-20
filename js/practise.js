@@ -103,3 +103,92 @@ document.getElementById("demo").innerHTML = "John" + " "  + "Doe";
 
 
 /*----------------Wednesday, November 20, 2024--------------*/
+
+//var
+var firstname = 'Sehrish'; 
+firstname = "Sehrish2";                   // assign again
+var firstname = 'sehrish3';               //declare again
+
+document.write(firstname);
+
+
+
+//let
+let lastname = "Talat";
+lastname = "Talat2";                   //assign again
+//let lastname = "Talat3"              //not decalre again         
+
+document.write(lastname);
+
+
+
+//const
+const middlename = "None";
+//middlename = 'None';                //not assign again
+//const middlename = 'None';          //not declare again
+
+document.write(middlename);
+
+
+
+//comparison operatos
+var num1 = 10;
+let num2 = 20;
+
+console.log(num1 == num2);  
+console.log(num1 != num2);   
+console.log(num1 === num2);
+console.log(num1 !== num2);         
+console.log(num1>num2);
+console.log(num1<num2);
+console.log(num1>=num2);
+console.log(num1<=num2);
+
+
+
+//if - else if - else statement
+var class_time = 12;
+
+if(class_time == 11)
+{
+    document.write("Class Start !");
+}
+else if(class_time >= 11 || class_time <=1 )
+{
+    document.write('Class Continue... ');
+}
+else
+{
+    document.write('class end!');
+}
+
+
+
+//prompt
+prompt("Hello world");
+
+var demo = prompt("Hello world");
+alert(demo);
+document.write(demo);
+
+
+//prompt use in statement
+var class_time = prompt("Enter time when you entered in class");
+alert(class_time);
+
+
+if(class_time == 11)
+{
+    document.write("Class Start !");
+}
+else if(class_time >= 11 || class_time <=1 )
+{
+    document.write('Class Continue... ');
+}
+else
+{
+    document.write('class end!');
+}
+
+
+
